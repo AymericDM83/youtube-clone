@@ -1,9 +1,12 @@
 import "./App.css";
+import PageHeader from "./layout/PageHeader";
 
 function App() {
-
-  return <>
-  <h1 className="text-3xl font-bold ">Init project</h1></>;
+  return (
+    <div className="max-g-screen flex flex-col">
+      <PageHeader />
+    </div>
+  );
 }
 
 export default App;
