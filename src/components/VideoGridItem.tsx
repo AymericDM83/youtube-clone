@@ -22,7 +22,6 @@ const VIEW_FORMATTER = new Intl.NumberFormat(undefined, {
 });
 
 export function VideoGridItem({
-  id,
   title,
   channel,
   views,

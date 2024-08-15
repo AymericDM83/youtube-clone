@@ -169,7 +169,7 @@ type SmallSidebarItemProps = {
   url: string;
 };
 
-function SmallSidebarItem({ Icon, title, url }: SmallSidebarItemProps) {
+function SmallSidebarItem({ Icon, title }: SmallSidebarItemProps) {
   return (
     <a
       href="/"
