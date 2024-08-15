@@ -172,7 +172,7 @@ type SmallSidebarItemProps = {
 function SmallSidebarItem({ Icon, title, url }: SmallSidebarItemProps) {
   return (
     <a
-      href={url}
+      href="/"
       className={twMerge(
         buttonStyles({ variant: "ghost" }),
         "py-4 px-1 flex flex-col items-center rounded-lg gap-1"
@@ -231,12 +231,11 @@ type LargeSidebarItemProps = {
 function LargeSidebarItem({
   IconOrImgUrl,
   title,
-  url,
   isActive = false,
 }: LargeSidebarItemProps) {
   return (
     <a
-      href={url}
+      href="/"
       className={twMerge(
         buttonStyles({ variant: "ghost" }),
         `w-full flex items-center rounded-lg gap-4 p-3 ${

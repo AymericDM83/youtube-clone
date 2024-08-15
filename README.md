@@ -1,6 +1,6 @@
 # Youtube home page clone 
 
-Implementing Youtube homepage design with React, Typescript and TailwindCSS
+Implementing responsive Youtube homepage design with React, Typescript and TailwindCSS
 
 
 ## How to Install and Run the Project
